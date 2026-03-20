@@ -1,6 +1,7 @@
 # STEVE_2026_Paper_Figures
 Code to run the model and create figures for the Harding and Gasque (2026) paper: Harding and Gasque (2026) paper:  "Electron-Impact Excitation of N$_2$ is Insufficient to Produce the NO$_2$ Continuum in STEVE"
 
+ - The main code is in "Harding_Gasque_2026_Figures.ipynb"
  - The module "steve_n2v.py" is required
  - Cross sections are in the file "cross_sections_N2_laporta_subset.nc"
  - BOLSIG+ runs, used for Run 3, were pre-computed and the EEDFs are available in the "EEDFs.csv" file. A Python reader for this file is available in steve_n2v.
