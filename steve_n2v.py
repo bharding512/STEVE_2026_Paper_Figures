@@ -737,7 +737,7 @@ def integrate_EEDF(EEDF_eV, EEDF, xsec_eV, xsec_cm2, delta_function=0):
 
 
 import re
-def read_BOLSIG(fn = './EEDFs.csv', energy_bins=300):
+def read_BOLSIG(fn = './EEDFs_subset.csv', energy_bins=300):
     '''
     Read the BOLSIG file and return a xarray DataArray with the EEDF.
     
